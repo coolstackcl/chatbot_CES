@@ -1,0 +1,2 @@
+class Establecimiento < ApplicationRecord
+end
