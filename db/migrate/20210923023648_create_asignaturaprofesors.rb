@@ -3,6 +3,7 @@ class CreateAsignaturaprofesors < ActiveRecord::Migration[6.1]
     create_table :asignaturaprofesors do |t|
       t.references :profesor, null: false, foreign_key: true
       t.references :asignatura, null: false, foreign_key: true
+      t.references :curso, null: false, foreign_key: true
 
       t.timestamps
     end
