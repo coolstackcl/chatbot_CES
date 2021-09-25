@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  resources :cursos
-  resources :asignaturas
-  resources :profesors
-  resources :usuarios
-  resources :establecimientos
+  post '/webhooks' => 'webhooks#comunicacion'
+  get '/' => 'sessions#login'
+  post '/valid_login' => 'sessions#valid_login'
+
   resources :cursos
   resources :asignaturas
   resources :profesors

@@ -69,11 +69,6 @@ Profesor.create(nombre: "Soledad", apellido: "Navarrete", email: nil, inicioaten
     Regprofesor.create(profesor:Profesor.find(i), establecimiento:Establecimiento.find(1))
 end
 
-### FALTA LA SGTE INFORMACION ### (hacia arriba ya está cargado)
-# - Jornada de cursos
-# - Listado de asignaturas
-# - Profesor x asignatura x curso
-
 # Asignaturas
 # ----------------
 asignaturas = ["Lenguaje y Comunicación", "Matemáticas", "Ciencias Naturales", "Historia y Geografía", "Inglés", "Artes Visuales", "Tecnología", "Educación Física", "Música", "Religión", "Orientación", "Taller Manual", "Taller Deportes", "Lengua y Literatura", "Taller de Teatro"]
