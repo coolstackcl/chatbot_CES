@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_14_235935) do
+ActiveRecord::Schema.define(version: 2021_09_23_023648) do
 
   create_table "asignaturacursos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "curso_id", null: false
@@ -24,9 +24,11 @@ ActiveRecord::Schema.define(version: 2021_09_14_235935) do
   create_table "asignaturaprofesors", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "profesor_id", null: false
     t.bigint "asignatura_id", null: false
+    t.bigint "curso_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["asignatura_id"], name: "index_asignaturaprofesors_on_asignatura_id"
+    t.index ["curso_id"], name: "index_asignaturaprofesors_on_curso_id"
     t.index ["profesor_id"], name: "index_asignaturaprofesors_on_profesor_id"
   end
 
@@ -132,6 +134,7 @@ ActiveRecord::Schema.define(version: 2021_09_14_235935) do
   add_foreign_key "asignaturacursos", "asignaturas"
   add_foreign_key "asignaturacursos", "cursos"
   add_foreign_key "asignaturaprofesors", "asignaturas"
+  add_foreign_key "asignaturaprofesors", "cursos"
   add_foreign_key "asignaturaprofesors", "profesors"
   add_foreign_key "profesorjeves", "cursos"
   add_foreign_key "profesorjeves", "profesors"

@@ -3,7 +3,9 @@
 one:
   profesor: one
   asignatura: one
+  curso: one
 
 two:
   profesor: two
   asignatura: two
+  curso: two
