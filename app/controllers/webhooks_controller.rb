@@ -46,5 +46,4 @@ class WebhooksController < ApplicationController
       render json: @webhook.errors, status: :unprocessable_entity
     end
   end
-  end
 end
