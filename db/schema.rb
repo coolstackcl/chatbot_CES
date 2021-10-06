@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2021_09_23_023648) do
 
-  create_table "asignaturacursos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "asignaturacursos", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "curso_id", null: false
     t.bigint "asignatura_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["curso_id"], name: "index_asignaturacursos_on_curso_id"
   end
 
-  create_table "asignaturaprofesors", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "asignaturaprofesors", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "profesor_id", null: false
     t.bigint "asignatura_id", null: false
     t.bigint "curso_id", null: false
@@ -32,13 +32,13 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["profesor_id"], name: "index_asignaturaprofesors_on_profesor_id"
   end
 
-  create_table "asignaturas", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "asignaturas", charset: "utf8mb4", force: :cascade do |t|
     t.string "nombre"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "cursos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "cursos", charset: "utf8mb4", force: :cascade do |t|
     t.string "numero"
     t.string "letra"
     t.string "nivel"
@@ -47,7 +47,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "establecimientos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "establecimientos", charset: "utf8mb4", force: :cascade do |t|
     t.string "nombre"
     t.string "ciudad"
     t.string "rbd"
@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "profesorjeves", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "profesorjeves", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "profesor_id", null: false
     t.bigint "curso_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -68,7 +68,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["profesor_id"], name: "index_profesorjeves_on_profesor_id"
   end
 
-  create_table "profesors", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "profesors", charset: "utf8mb4", force: :cascade do |t|
     t.string "nombre"
     t.string "apellido"
     t.string "email"
@@ -78,7 +78,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "regasignaturas", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "regasignaturas", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "asignatura_id", null: false
     t.bigint "establecimiento_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -87,7 +87,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["establecimiento_id"], name: "index_regasignaturas_on_establecimiento_id"
   end
 
-  create_table "regcursos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "regcursos", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "establecimiento_id", null: false
     t.bigint "curso_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -96,7 +96,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["establecimiento_id"], name: "index_regcursos_on_establecimiento_id"
   end
 
-  create_table "registros", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "registros", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "usuario_id", null: false
     t.bigint "establecimiento_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -105,7 +105,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["usuario_id"], name: "index_registros_on_usuario_id"
   end
 
-  create_table "regprofesors", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "regprofesors", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "profesor_id", null: false
     t.bigint "establecimiento_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -114,13 +114,13 @@ ActiveRecord::Schema.define(version: 2021_09_23_023648) do
     t.index ["profesor_id"], name: "index_regprofesors_on_profesor_id"
   end
 
-  create_table "roles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "roles", charset: "utf8mb4", force: :cascade do |t|
     t.string "rol"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "usuarios", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "usuarios", charset: "utf8mb4", force: :cascade do |t|
     t.string "nombre"
     t.string "apellido"
     t.string "email"
