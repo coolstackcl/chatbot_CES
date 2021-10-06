@@ -1,0 +1,32 @@
+{
+    "isRegexp": false,
+    "isEnum": false,
+    "allowFuzzyExtraction": true,
+    "name": "curso",
+    "automatedExpansion": true,
+    "entries": [
+        {
+            "value": "1 A",
+            "synonyms": [
+                "1 A",
+                "1 a",
+                "1A",
+                "1a",
+                "1.A",
+                "1.a",
+                "1-A",
+                "1-a",
+                "primero A",
+                "primero a",
+                "primeroA",
+                "primeroa",
+                "primero.A",
+                "primero.a",
+                "primero-A",
+                "primero-a"
+            ]
+        }
+    ],
+    "id": "a9253151-f541-4b4b-80f1-09934b791d87",
+    "isOverridable": false
+}

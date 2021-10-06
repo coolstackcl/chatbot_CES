@@ -1,6 +1,10 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  #config.hosts << /[a-z0-9]\.ngrok\.io/
+  #config.hosts << "785e-201-219-234-16.ngrok.io"
+  config.hosts << "coolstack-cl.online"
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
