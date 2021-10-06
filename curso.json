@@ -1,0 +1,532 @@
+{
+    "isRegexp": false,
+    "isEnum": false,
+    "allowFuzzyExtraction": true,
+    "name": "curso",
+    "automatedExpansion": true,
+    "entries": [{
+            "value": "1 A",
+            "synonyms": [
+                "1 A",
+                "1 a",
+                "1A",
+                "1a",
+                "1.A",
+                "1.a",
+                "1-A",
+                "1-a",
+                "primero A",
+                "primero a",
+                "primeroA",
+                "primeroa",
+                "primero.A",
+                "primero.a",
+                "primero-A",
+                "primero-a"
+            ]
+        },
+        {
+            "value": "1 B",
+            "synonyms": [
+                "1 B",
+                "1 b",
+                "1B",
+                "1b",
+                "1.B",
+                "1.b",
+                "1-B",
+                "1-b",
+                "primero B",
+                "primero b",
+                "primeroB",
+                "primerob",
+                "primero.B",
+                "primero.b",
+                "primero-B",
+                "primero-b"
+            ]
+        },
+        {
+            "value": "1 C",
+            "synonyms": [
+                "1 C",
+                "1 c",
+                "1C",
+                "1c",
+                "1.C",
+                "1.c",
+                "1-C",
+                "1-c",
+                "primero C",
+                "primero c",
+                "primeroC",
+                "primeroc",
+                "primero.C",
+                "primero.c",
+                "primero-C",
+                "primero-c"
+            ]
+        },
+        {
+            "value": "2 A",
+            "synonyms": [
+                "2 A",
+                "2 a",
+                "2A",
+                "2a",
+                "2.A",
+                "2.a",
+                "2-A",
+                "2-a",
+                "segundo A",
+                "segundo a",
+                "segundoA",
+                "segundoa",
+                "segundo.A",
+                "segundo.a",
+                "segundo-A",
+                "segundo-a"
+            ]
+        },
+        {
+            "value": "2 B",
+            "synonyms": [
+                "2 B",
+                "2 b",
+                "2B",
+                "2b",
+                "2.B",
+                "2.b",
+                "2-B",
+                "2-b",
+                "segundo B",
+                "segundo b",
+                "segundoB",
+                "segundob",
+                "segundo.B",
+                "segundo.b",
+                "segundo-B",
+                "segundo-b"
+            ]
+        },
+        {
+            "value": "2 C",
+            "synonyms": [
+                "2 C",
+                "2 c",
+                "2C",
+                "2c",
+                "2.C",
+                "2.c",
+                "2-C",
+                "2-c",
+                "segundo C",
+                "segundo c",
+                "segundoC",
+                "segundoc",
+                "segundo.C",
+                "segundo.c",
+                "segundo-C",
+                "segundo-c"
+            ]
+        },
+        {
+            "value": "3 A",
+            "synonyms": [
+                "3 A",
+                "3 a",
+                "3A",
+                "3a",
+                "3.A",
+                "3.a",
+                "3-A",
+                "3-a",
+                "tercero A",
+                "tercero a",
+                "terceroA",
+                "terceroa",
+                "tercero.A",
+                "tercero.a",
+                "tercero-A",
+                "tercero-a"
+            ]
+        },
+        {
+            "value": "3 B",
+            "synonyms": [
+                "3 B",
+                "3 b",
+                "3B",
+                "3b",
+                "3.B",
+                "3.b",
+                "3-B",
+                "3-b",
+                "tercero B",
+                "tercero b",
+                "terceroB",
+                "tercerob",
+                "tercero.B",
+                "tercero.b",
+                "tercero-B",
+                "tercero-b"
+            ]
+        },
+        {
+            "value": "3 C",
+            "synonyms": [
+                "3 C",
+                "3 c",
+                "3C",
+                "3c",
+                "3.C",
+                "3.c",
+                "3-C",
+                "3-c",
+                "tercero C",
+                "tercero c",
+                "terceroC",
+                "terceroc",
+                "tercero.C",
+                "tercero.c",
+                "tercero-C",
+                "tercero-c"
+            ]
+        },
+        {
+            "value": "4 A",
+            "synonyms": [
+                "4 A",
+                "4 a",
+                "4A",
+                "4a",
+                "4.A",
+                "4.a",
+                "4-A",
+                "4-a",
+                "cuarto A",
+                "cuarto a",
+                "cuartoA",
+                "cuartoa",
+                "cuarto.A",
+                "cuarto.a",
+                "cuarto-A",
+                "cuarto-a"
+            ]
+        },
+        {
+            "value": "4 B",
+            "synonyms": [
+                "4 B",
+                "4 b",
+                "4B",
+                "4b",
+                "4.B",
+                "4.b",
+                "4-B",
+                "4-b",
+                "cuarto B",
+                "cuarto b",
+                "cuartoB",
+                "cuartob",
+                "cuarto.B",
+                "cuarto.b",
+                "cuarto-B",
+                "cuarto-b"
+            ]
+        },
+        {
+            "value": "4 C",
+            "synonyms": [
+                "4 C",
+                "4 c",
+                "4C",
+                "4c",
+                "4.C",
+                "4.c",
+                "4-C",
+                "4-c",
+                "cuarto C",
+                "cuarto c",
+                "cuartoC",
+                "cuartoc",
+                "cuarto.C",
+                "cuarto.c",
+                "cuarto-C",
+                "cuarto-c"
+            ]
+        },
+        {
+            "value": "5 A",
+            "synonyms": [
+                "5 A",
+                "5 a",
+                "5A",
+                "5a",
+                "5.A",
+                "5.a",
+                "5-A",
+                "5-a",
+                "quinto A",
+                "quinto a",
+                "quintoA",
+                "quintoa",
+                "quinto.A",
+                "quinto.a",
+                "quinto-A",
+                "quinto-a"
+            ]
+        },
+        {
+            "value": "5 B",
+            "synonyms": [
+                "5 B",
+                "5 b",
+                "5B",
+                "5b",
+                "5.B",
+                "5.b",
+                "5-B",
+                "5-b",
+                "quinto B",
+                "quinto b",
+                "quintoB",
+                "quintob",
+                "quinto.B",
+                "quinto.b",
+                "quinto-B",
+                "quinto-b"
+            ]
+        },
+        {
+            "value": "5 C",
+            "synonyms": [
+                "5 C",
+                "5 c",
+                "5C",
+                "5c",
+                "5.C",
+                "5.c",
+                "5-C",
+                "5-c",
+                "quinto C",
+                "quinto c",
+                "quintoC",
+                "quintoc",
+                "quinto.C",
+                "quinto.c",
+                "quinto-C",
+                "quinto-c"
+            ]
+        },
+        {
+            "value": "6 A",
+            "synonyms": [
+                "6 A",
+                "6 a",
+                "6A",
+                "6a",
+                "6.A",
+                "6.a",
+                "6-A",
+                "6-a",
+                "sexto A",
+                "sexto a",
+                "sextoA",
+                "sextoa",
+                "sexto.A",
+                "sexto.a",
+                "sexto-A",
+                "sexto-a"
+            ]
+        },
+        {
+            "value": "6 B",
+            "synonyms": [
+                "6 B",
+                "6 b",
+                "6B",
+                "6b",
+                "6.B",
+                "6.b",
+                "6-B",
+                "6-b",
+                "sexto B",
+                "sexto b",
+                "sextoB",
+                "sextob",
+                "sexto.B",
+                "sexto.b",
+                "sexto-B",
+                "sexto-b"
+            ]
+        },
+        {
+            "value": "6 C",
+            "synonyms": [
+                "6 C",
+                "6 c",
+                "6C",
+                "6c",
+                "6.C",
+                "6.c",
+                "6-C",
+                "6-c",
+                "sexto C",
+                "sexto c",
+                "sextoC",
+                "sextoc",
+                "sexto.C",
+                "sexto.c",
+                "sexto-C",
+                "sexto-c"
+            ]
+        },
+        {
+            "value": "7 A",
+            "synonyms": [
+                "7 A",
+                "7 a",
+                "7A",
+                "7a",
+                "7.A",
+                "7.a",
+                "7-A",
+                "7-a",
+                "septimo A",
+                "septimo a",
+                "septimoA",
+                "septimoa",
+                "septimo.A",
+                "septimo.a",
+                "septimo-A",
+                "septimo-a"
+            ]
+        },
+        {
+            "value": "7 B",
+            "synonyms": [
+                "7 B",
+                "7 b",
+                "7B",
+                "7b",
+                "7.B",
+                "7.b",
+                "7-B",
+                "7-b",
+                "septimo B",
+                "septimo b",
+                "septimoB",
+                "septimob",
+                "septimo.B",
+                "septimo.b",
+                "septimo-B",
+                "septimo-b"
+            ]
+        },
+        {
+            "value": "7 C",
+            "synonyms": [
+                "7 C",
+                "7 c",
+                "7C",
+                "7c",
+                "7.C",
+                "7.c",
+                "7-C",
+                "7-c",
+                "septimo C",
+                "septimo c",
+                "septimoC",
+                "septimoc",
+                "septimo.C",
+                "septimo.c",
+                "septimo-C",
+                "septimo-c"
+            ]
+        },
+        {
+            "value": "8 A",
+            "synonyms": [
+                "8 A",
+                "8 a",
+                "8A",
+                "8a",
+                "8.A",
+                "8.a",
+                "8-A",
+                "8-a",
+                "octavo A",
+                "octavo a",
+                "octavoA",
+                "octavoa",
+                "octavo.A",
+                "octavo.a",
+                "octavo-A",
+                "octavo-a"
+            ]
+        },
+        {
+            "value": "8 B",
+            "synonyms": [
+                "8 B",
+                "8 b",
+                "8B",
+                "8b",
+                "8.B",
+                "8.b",
+                "8-B",
+                "8-b",
+                "octavo B",
+                "octavo b",
+                "octavoB",
+                "octavob",
+                "octavo.B",
+                "octavo.b",
+                "octavo-B",
+                "octavo-b"
+            ]
+        },
+        {
+            "value": "8 C",
+            "synonyms": [
+                "8 C",
+                "8 c",
+                "8C",
+                "8c",
+                "8.C",
+                "8.c",
+                "8-C",
+                "8-c",
+                "octavo C",
+                "octavo c",
+                "octavoC",
+                "octavoc",
+                "octavo.C",
+                "octavo.c",
+                "octavo-C",
+                "octavo-c"
+            ]
+        },
+        {
+            "value": "Kinder",
+            "synonyms": [
+                "kinder",
+                "kindr",
+                "KINDER"
+            ]
+        },
+        {
+            "value": "Pre-Kinder",
+            "synonyms": [
+                "PreKinder",
+                "Pre Kinder",
+                "PREKINDER",
+                "prekinder",
+                "pre.kinder"
+            ]
+        }
+    ],
+    "id": "a9253151-f541-4b4b-80f1-09934b791d87",
+    "isOverridable": false
+}
