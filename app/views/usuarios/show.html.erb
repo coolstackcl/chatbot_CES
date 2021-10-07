@@ -16,13 +16,8 @@
 </p>
 
 <p>
-  <strong>Password digest:</strong>
-  <%= @usuario.password_digest %>
-</p>
-
-<p>
   <strong>Role:</strong>
-  <%= @usuario.role_id %>
+  <%= @usuario.role.rol %>
 </p>
 
 <%= link_to 'Edit', edit_usuario_path(@usuario) %> |

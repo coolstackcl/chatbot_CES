@@ -1,11 +1,18 @@
 <%= form_with(model: usuario) do |form| %>
   <% if usuario.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
+      <h2>
+        No se puede guardar este usuario debido a <%= usuario.errors.count %>
+        <%= if (usuario.errors.count==1)
+              "error"
+            else
+              "errores"
+            end %>
+      </h2>
 
       <ul>
         <% usuario.errors.each do |error| %>
-          <li><%= error.full_message %></li>
+          <li><%= error.full_message%></li>
         <% end %>
       </ul>
     </div>
@@ -23,17 +30,22 @@
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.email_field :email %>
   </div>
 
   <div class="field">
-    <%= form.label :password_digest %>
-    <%= form.text_field :password_digest %>
+    <%= form.label :password %>
+    <%= form.password_field :password %>
   </div>
 
   <div class="field">
-    <%= form.label :role_id %>
-    <%= form.text_field :role_id %>
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div class="field">
+    <%= form.label "Rol" %>
+    <%= form.select :role_id, Role.all.collect {|r| [r.rol, r.id]}%>
   </div>
 
   <div class="actions">
